@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.nav{
+    width: 100vw;
+    margin: 0;
+    padding: 0.1px;
+    height: max-content;
+}
+.Displayopt{
+    width: 100vw;
+    background: white;
+    height: 4rem;
+    padding: 0.1px;
+    margin: 0.1px;
+   
+}
+.ticketbody{
+    width: 100%;
+    background: #F4F5F8;
+}
+.optclass{
+
+    min-width: 5rem;
+    width: max-content;
+    box-shadow: 1px 1px 9px rgb(224, 224, 224);
+    border: 1px solid rgb(206, 206, 206);
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.Displayopt .optionss{
+    position: absolute;
+    background: rgb(248, 248, 248);
+    padding: 1rem;
+    padding-top: 0.5rem;
+    box-shadow: 1px 1px 9px rgb(224, 224, 224);
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 0.2rem;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+}
+.actopt select{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 0.2rem;
+}
+.actopt{
+    margin-top: 0.5rem;
+}
+.kanban_board{
+    display: flex;
+}
+
+.optionss.false{
+    display: none;
+
+}
+.optionss.active{
+    display: block;
+
+}
+
+#grpkey{
+    font-weight: 800;
+}
+.board-columns{
+    width: 20%;
+    padding: 2.5rem;
+    padding-top: 2rem;
+}
+.ticket_column{
+    
+}
+.ticket_column .ticket{
+    border: 1px solid rgb(232, 232, 232);
+    box-shadow: 1px 1px 9px rgb(239, 239, 239);
+    background: white;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    
+}
+.nameflex{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+}
+
+#tickid{
+color: rgb(147, 147, 147);
+
+
+}
+#titlee{
+    margin-top: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+#tagss{
+    margin-top: 0;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    width: max-content;
+    padding: 0.2rem;
+    margin-bottom: 0;
+    color: #868686;
+
+    
+}
+.namef{
+    display: flex;
+}
+
+#tagsa{
+    margin-top: 0;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    width: max-content;
+    padding: 0.2rem;
+    margin-bottom: 0;
+    color: #868686;
+    margin-right: 0.2rem;
+
+}
